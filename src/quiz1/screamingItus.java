@@ -15,10 +15,16 @@ public class screamingItus {
 		{
 			
 			if(i>=1&&i<=8)
+			{
 			numberInfected=numberInfected+5;
 			totalInfected=numberInfected;
+			}
 			
-		
+			if(i>=9)
+			{
+				numberInfected=numberInfected+8;
+				totalInfected=numberInfected;
+			}
 			
 		}
 
