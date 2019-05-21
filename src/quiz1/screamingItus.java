@@ -16,14 +16,34 @@ public class screamingItus {
 			
 			if(i>=1&&i<=8)
 			{
-			numberInfected=numberInfected+5;
-			totalInfected=numberInfected;
+				if(i/2==0)
+				{
+					numberInfected=numberInfected+0;
+					totalInfected=numberInfected;
+				}
+				else
+				{
+					numberInfected=numberInfected+5;
+					totalInfected=numberInfected;	
+				}
+			
 			}
 			
 			if(i>=9)
 			{
-				numberInfected=numberInfected+8;
-				totalInfected=numberInfected;
+				if(i/2==0)
+				{
+
+					numberInfected=numberInfected+0;
+					totalInfected=numberInfected;
+				}
+				
+				else
+					{
+					numberInfected=numberInfected+8;
+					totalInfected=numberInfected;
+					}
+				
 			}
 			
 		}
